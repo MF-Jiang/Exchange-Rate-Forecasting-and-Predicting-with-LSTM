@@ -7,6 +7,7 @@
 - LSTMPrediction.py: Train LSTM model with GridCV to find the best model through using the dataset we get above.
 
 ### Result:
+- Best parameters found:  {'batch_size': 64, 'epochs': 100, 'optimizer': 'adam', 'units': 100}
 - Train Score: 0.012623310581419986 RMSE
 - Test Score: 0.02037485337487071 RMSE
 
